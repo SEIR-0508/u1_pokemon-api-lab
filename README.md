@@ -43,7 +43,7 @@ button.addEventListener('click', async () => {
     //remember to use Async and Await!
     //DOM Setters go here
 
-}
+})
 
 
 ```
