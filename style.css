@@ -1,0 +1,96 @@
+/* ATTRIBUTES */
+
+body {
+    text-align:center;
+    background-color:black;
+    color: white;
+}
+
+header {
+    border-radius: .5rem;
+    background-color: red;
+    height: 3rem;
+    margin: 1rem;
+    color: white;
+}
+
+main {
+    background-color: red;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    height: 3rem;
+    width: 33%;
+    font-size: 2rem;
+}
+
+select {
+    height: 3rem;
+    width: 33%;
+    font-size: 2rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+/* CLASSES */
+
+.search {
+    height: 3rem;
+    width: 20%;
+    border-radius: 2rem;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.previous {
+    width: 40%;
+    border-radius: 1rem;
+}
+
+.next {
+    width: 40%;
+    border-radius: 1rem;
+}
+
+.right {
+    width: 50%;
+    border: 1rem solid black;
+}
+
+.left {
+    width: 50%;
+    border: 1rem solid black;
+}
+
+.leftAlign {
+    display: flex;
+    justify-content: left;
+    padding-left: .5rem;
+}
+
+.leftArrow {
+/* make into arrow later */
+}
+
+.rightArrow {
+/* make into arrow later */
+}
+/* IDS */
