@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+font-family: "Press Start 2P";
+text-align: center;
+color: #ffcb05;
+text-shadow: 2px 2px 0 #2a75bb ;
+background-color: #CC0000 ;
+} 
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #ffcb05;
+    
+}
+
+#Gameboy{
+    border-style: solid;
+    border-color: #B3A125;
+    border-width: 5px;
+    margin: auto;
+    width: 410px;
+    height: 360px;  
+    margin-top: 10%;
+    background-color: #3c5aa6;
+}
+
+#specs{
+    border-bottom-style: solid;
+    border-color: #B3A125;
+    height: 180px;
+    width: 410px;
+    margin:auto;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.pS, .pI, .pN, .pNu, .pH, .pw {
+  width: 50%;
+  flex: 0 1 auto; 
+  height: 35%;
+}
+
+#pokemonName{
+    text-transform: capitalize;
+}
+#searchButton{
+    font-family: "Press Start 2P";
+    text-align: center;
+    color: #ffcb05;
+    text-shadow: 2px 2px 0 #2a75bb ;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    padding: 0;
+    background-image: url(./kherson-ukraine-august-27-2016-260nw-474817792.webp) ;
+    background-position: center;
+    background-position-y: 201px;
+    white-space: normal;
+} 
