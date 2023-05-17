@@ -6,18 +6,50 @@ body {
     height: 100vh;
     display: flexbox;
     padding: 1rem;
-    /* background-color: red; */
-}
-
-h1 {
-    letter-spacing: 0.5em;
-    font-size: 3rem;
-    color: #E35D59;
+    background-color: ghostwhite;
 }
 
 header {
     display: flexblock;
     text-align: center;
+    background-color: #E35D59;
+    border: .5rem solid lightgray;
+    width: 90vh, 70vmin;
+}
+
+h1 {
+    letter-spacing: 0.5em;
+    font-size: 3rem;
+    color: white;
+    padding: 1rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    padding: .3rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.stats {
+    border: .5rem solid #E35D59;
+    display: inline-block;
+    padding: 1rem;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#description {
+    display: inline-block;
+    border: .5rem solid #E35D59;
+    padding: 1rem;
+}
+
+#pokeImg {
+    position: relative;
 }
 
 #pokeName {
@@ -25,19 +57,12 @@ header {
     font-size: 2.5rem;
 }
 
-.stats {
-    border: .5rem solid #E35D59;
-    display: inline-block;
-    padding: 1rem;
+#searchButton {
+    background-color: ghostwhite;
+    padding: .3rem;
 }
 
-/* #main {
-    border: 1px solid pink;
-} */
 
-ul {
-    list-style: none;
-    padding-left: 0;
-}
+
 
 
