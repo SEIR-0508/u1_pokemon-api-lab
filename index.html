@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoT API Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1 class="page-title">Game of Thrones Character Info Generator!</h1>
+    <h2 class="page-subtitle">Please enter a 1-3 digit number below</h2>
+    <form>
+        <input type="text"  value="" placeholder="Type Number"  id="inputBar">
+        <input type="button"  value="Search" id="searchButton">
+    </form>
+
+    <h2 class="page-subtitle">Please enter the character's full name below</h2>
+    <form>
+        <input type="text"  value="" placeholder="Type Name"  id="inputBar2">
+        <input type="button"  value="Search" id="searchButton2">
+    </form>
+    
+    <div class="character-card">
+        <div class="character-card-item main-title">
+            <h1 class="character-title">Character Information</h1>
+        </div>
+        <div class="character-card-item">
+            <h2 class="characterName">Name:</h2>
+        </div>
+        <div class="character-card-item">
+            <h2 class="stats gender">Gender: </h2>
+        </div>
+        <div class="character-card-item">
+            <h2 class="stats culture">Culture: </h2>
+        </div>
+        <div class="character-card-item">
+            <h2 class="stats born">Born: </h2>
+        </div>
+        <div class="character-card-item">
+            <h2 class="stats death">Death: </h2>
+        </div>
+        <div class="character-card-item">
+            <h2 class="stats actor">Actor Name: </h2>
+        </div>
+    </div>
+    
+     
+    
+</body>
+</html>

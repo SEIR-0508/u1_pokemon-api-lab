@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(images/game_of_thrones.0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.page-title {
+    margin: 2rem 0rem;
+    background-color:rgb(154, 154, 255);
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    box-shadow: 2px 4px 6px rgb(220, 220, 255);
+}
+
+.page-subtitle {
+    margin: 2rem 0 2rem 0;
+    background-color:rgb(154, 154, 255);
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    box-shadow: 2px 4px 6px rgb(220, 220, 255);
+}
+
+#inputBar, #inputBar2 {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 4px 6px rgb(220, 220, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+
+#searchButton, #searchButton2 {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 25px;
+    margin: 0 2rem;
+    color: black;
+    background-color: rgb(154, 154, 255);
+    border: solid black 2px;
+    font-weight: 700;
+}
+
+#searchButton:hover {
+    cursor: pointer;
+    border: solid white 2px;
+    background-color: rgb(187, 187, 241);
+    box-shadow: 2px 4px 6px rgb(220, 220, 255);
+}
+
+#searchButton2:hover {
+    cursor: pointer;
+    border: solid white 2px;
+    background-color: rgb(187, 187, 241);
+    box-shadow: 2px 4px 6px rgb(220, 220, 255);
+}
+
+.character-card {
+    margin: 3rem 0rem;
+    border: solid white 2px;
+    width: 20vw;
+    height: 45vh;
+    background-color: rgb(154, 154, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 2px 4px 6px rgb(220, 220, 255);
+}
+
+.character-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5rem;
+}
+
+.character-card-item {
+    border: white solid 1px;
+    width: 100%;
+    height: 14.2857143%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.character-card-item:hover {
+    cursor: pointer;
+    border: solid white 2px;
+    background-color: rgb(187, 187, 241);
+    box-shadow: 2px 4px 6px rgb(220, 220, 255);   
+}
+
+.stats, .characterName {
+    margin-left: 1rem;
+}
