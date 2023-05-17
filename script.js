@@ -84,7 +84,7 @@ const displayWinner = () => {
     fightingDisplay.innerText = "We have a winner!"
 }
 setTimeout(displayWinner,2000)
-
+//https://www.w3schools.com/jsref/met_win_settimeout.asp
 
 
 })
