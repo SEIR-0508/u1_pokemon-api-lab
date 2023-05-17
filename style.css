@@ -1,0 +1,30 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokeDexBody {
+    text-align: center;
+    background-color: tomato
+    padding 20px;
+}
+
+.dexButtons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.dexButtons div {
+    display: flex;
+    justify-content: center;
+}
+
+#pokemonImage {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
