@@ -1,0 +1,51 @@
+@font-face {
+    font-family: GoT;
+    src: url("Game of Thrones.ttf");
+}
+
+body {
+    background-image: url('https://coolmaterial.com/wp-content/uploads/2017/07/Game-of-Thrones-season-8-wallpaper-1000x600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title {
+    font-family: GoT;
+    text-align: center;
+}
+
+
+.form
+{
+    display: block;
+    text-align: center;
+}
+
+#charName {
+    padding: 10px 50px 10px 50px;
+    font-size: 18px;
+}
+
+/* form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+} */
+
+.container {
+    border: solid;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+    /* gap: 100px; */
+  }
+
+  .attr{
+    width: 500px;
+  }
+
+
