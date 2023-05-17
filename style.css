@@ -1,0 +1,116 @@
+body {
+    margin-top: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("pokemonBackground.jpg");
+    background-size: cover;
+}
+
+form > input {
+    height: 7vmin;
+    margin-top: 1vmin;
+}
+
+p {
+    font-size: 3vmin;
+}
+
+#inputBar {
+    width: 30vmin;
+    font-size: 2.5vmin;
+}
+
+#searchButton {
+    width: 15vmin;
+    border-radius: 30%;
+    background-color: red;
+    color: white;
+    border-width: 1vmin;
+}
+
+#bigBox {
+    height: 70vmin;
+    width: 100vmin;
+    display: grid;
+    grid-template-columns: 85vmin 15vmin;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 5%;
+}
+
+#leftSide {
+    height: 70vmin;
+    width: 95vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#littleBox {
+    height: 50vmin;
+    width: 70vmin;
+    background-color:rgba(255, 228, 196,.5);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#pokeBalls {
+    margin: 5vmin 0 10vmin 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#pokeBalls > img {
+    height: 6vmin;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#options > input {
+    height: 5vmin;
+    width: 30vmin;
+}
+    
+#chooseYou {
+    width: 20vmin;
+    background-color:aqua
+}
+
+#pokemonName {
+    font-size: 5vmin;
+    margin-top: 2vmin;
+}
+
+#pokeStuff {
+    width: 70vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#pokeImageBox {
+    width: 35vmin;
+    display: flex;
+    justify-content: center;
+}
+
+#pokeStats {
+    width: 35vmin;
+}
+
+#pokemonImage {
+    width: 35vmin;
+    height: 35vmin;
+}
+

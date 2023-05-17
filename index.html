@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your Pokemon</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="bigBox">
+        <div id="leftSide">
+            <form>
+                <input type="text"  value="" placeholder="Choose your pokemon!"  id="inputBar">
+                <input type="button"  value="Catch!" id="searchButton">
+            </form>
+
+            <div id="littleBox"> 
+                <h2 id="pokemonName">name</h2>
+                <div id="pokeStuff">
+                    <div id="pokeImageBox">
+                        <img id="pokemonImage" src="tallgrass.png"/>
+                    </div>
+                    <div id="pokeStats">
+                        <p id="pokeNum">Num:</p>
+                        <p id="pokeType">Type:</p>
+                        <p id="pokeHeight">Height:</p>
+                        <p id="pokeWeight">Weight:</p>
+                        <p id="pokeItems">Items:</p>
+                    </div>
+                </div>
+            </div>
+            <div id ="options">
+                <input type="button" value="Release" id="release">
+                <input type="button" value="I Choose You!" id="chooseYou">
+            </div>
+        </div>
+        <div id="pokeBalls">
+            <img id="ball1" src="pokeball.png"/>
+            <img id="ball2" src="pokeball.png"/>
+            <img id="ball3" src="pokeball.png"/>
+            <img id="ball4" src="pokeball.png"/>
+            <img id="ball5" src="pokeball.png"/>
+            <img id="ball6" src="pokeball.png"/>
+        </div>
+
+    </div>
+    
+    
+    
+    
+     
+</body>
+</html>
