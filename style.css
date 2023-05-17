@@ -43,6 +43,24 @@ section {
     justify-content: center;
 }
 
+img {
+    text-align: center;
+    width: 100%;
+    /* height: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    border: .25rem solid black;
+    width: 20%;
+    display: inline-flex;
+    margin: 0 .25rem;
+    padding: .25rem;
+    color: black;
+    background-color: white;
+}
+
 /* CLASSES */
 
 .search {
@@ -72,12 +90,10 @@ section {
 
 .right {
     width: 50%;
-    border: 1rem solid black;
 }
 
 .left {
     width: 50%;
-    border: 1rem solid black;
 }
 
 .leftAlign {
@@ -86,11 +102,8 @@ section {
     padding-left: .5rem;
 }
 
-.leftArrow {
-/* make into arrow later */
-}
-
-.rightArrow {
-/* make into arrow later */
+.pokemonPic {
+    width: 80%;
+    height: 80%;
 }
 /* IDS */

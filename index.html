@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Pokedex</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
         </div>
     </header>
     <nav>
-        <input type="text" placeholder="Search for a Pokemon">
+        <input type="text" placeholder="Search for a Pokemon" id="searchbox">
         <button class="search">Search</button>
         <select id="pokemonSelect" >
             <option value="default">Select A Pokemon</option>
@@ -22,31 +23,29 @@
     </nav>
     <main>
         <div class="row">
-            <button class="previous">#Previous</button>
-            <h1>PokemonName</h1>
-            <button class="next">#Next</button>
+            <button class="previous"></button>
+            <h1 class="pokemonName"></h1>
+            <button class="next"></button>
         </div>
         <section>
         <div class="left">
-            <img>
-            <button class="leftArrow">#PrevPic</button>
-            <button class="rightArrow">#NextPic</button>
+            <div class="pokemonPic">
+            </div>
             <div class="row">
                 <h1>Evolutions:</h1>
-                <img>
-                <img>
-                <img>
+                <div class="evolutions">
+
+                </div>
             </div>
         </div>
         <div class="right">
-            <div class="attributes">
-                <p>attributes here</p>
-            </div>
-            <div class="types leftAlign">
+            <div class="types">
                 <h1>Type:</h1>
+                <p class="myType" id="type1"></p>
+                <p class="myType" id="type2"></p>
             </div>
-            <div class="weaknesses leftAlign">
-                <h1>Weaknesses:</h1>
+            <div class="attributes">
+                
             </div>
         </div>
     </section>
