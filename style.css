@@ -4,6 +4,7 @@ body {
     text-align:center;
     background-color:black;
     color: white;
+    max-width: 750px;
 }
 
 header {
@@ -29,13 +30,13 @@ nav {
 input {
     height: 3rem;
     width: 33%;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 select {
     height: 3rem;
     width: 33%;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 section {
@@ -51,14 +52,8 @@ img {
     margin: 0;
 }
 
-p {
-    border: .25rem solid black;
-    width: 20%;
-    display: inline-flex;
-    margin: 0 .25rem;
-    padding: .25rem;
-    color: black;
-    background-color: white;
+th {
+    width: 30%
 }
 
 /* CLASSES */
@@ -106,4 +101,95 @@ p {
     width: 80%;
     height: 80%;
 }
+
+.attributes {
+    width: 100%;
+    height: 215px;
+    margin-top: 1rem;
+}
+
+.box {
+    width: 90%;
+    height: 100%;
+    border: .25rem solid darkmagenta;
+    background-color: lightgray;
+    border-radius: 1rem;
+}
+
+.myType {
+    border: .25rem solid black;
+    width: 20%;
+    display: inline-flex;
+    margin: 0 .25rem;
+    padding: .25rem;
+    color: black;
+    background-color: white;
+}
+
+.header {
+    color: black;
+    padding: 0;
+    margin: .125rem;
+}
+
+.hp {
+    background-color: #FF5959;
+}
+
+.attack {
+    background-color: #F5AC78;
+}
+
+.defense {
+    background-color: #FAE078;
+}
+
+.spAtk {
+    background-color: #9DB7F5;
+}
+
+.spDef {
+    background-color: #A7DB8D;
+}
+
+.speed {
+    background-color: #FA92B2;
+}
+
+.hpProgress {
+    background-color: #A60000;
+    color: #A60000;
+}
+
+.attackProgress {
+    background-color: #9C531F;
+    color: #9C531F;
+    width: 22%;
+}
+
+.defenseProgress {
+    background-color: #A1871F;
+    color: #A1871F;
+    width: 5%;
+}
+
+.spAtkProgress {
+    background-color: #445E9C;
+    color: #445E9C;
+    width: 12.66%
+}
+
+.spDefProgress {
+    background-color: #4E8234;
+    color: #4E8234;
+    width: 44%
+}
+
+.speedProgress {
+    background-color: #A13959;
+    color: #A13959;
+    width: 75%;
+}
+
 /* IDS */
+

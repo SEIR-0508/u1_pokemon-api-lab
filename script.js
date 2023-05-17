@@ -13,6 +13,18 @@ const myType = document.querySelectorAll('.myType')
 const type1 = document.querySelector('#type1')
 const type2 = document.querySelector('#type2')
 const weakness = document.querySelector('.weaknesses')
+const hp = document.getElementById('hp')
+const attack = document.getElementById('attack')
+const defense = document.getElementById('defense')
+const spAtk = document.getElementById('spAtk')
+const spDef = document.getElementById('spDef')
+const speed = document.getElementById('speed')
+const hpProgress = document.querySelector('.hpProgress')
+const attackProgress = document.querySelector('.attackProgress')
+const defenseProgress = document.querySelector('.defenseProgress')
+const spAtkProgress = document.querySelector('.spAtkProgress')
+const spDefProgress = document.querySelector('.spDefProgress')
+const speedProgress = document.querySelector('.speedProgress')
 
 // VARIABLES //
 
@@ -66,6 +78,24 @@ const pageStart = async () => {
 const buildPage = () => {
     pokemonName.innerHTML = currentPokemon.data.forms[0].name + ' #' + currentPokemon.data.id
     pokemonPic.innerHTML = `<img src='${currentPokemon.data.sprites.front_default}'>`
+    hp.innerText = currentPokemon.data.stats[0].base_stat
+    let hpLevel = ((parseInt(hp.innerText) / 255)*100)
+    hpProgress.style.width = `${hpLevel}%`
+    attack.innerText = currentPokemon.data.stats[1].base_stat
+    let attackLevel = (((parseInt(attack.innerText) / 255)*100))
+    attackProgress.style.width = `${attackLevel}%`
+    defense.innerText = currentPokemon.data.stats[2].base_stat
+    let defenseLevel = ((parseInt(defense.innerText) / 255)*100)
+    defenseProgress.style.width = `${defenseLevel}%`
+    spAtk.innerText = currentPokemon.data.stats[3].base_stat
+    let spAtkLevel = ((parseInt(spAtk.innerText) / 255)*100)
+    spAtkProgress.style.width = `${spAtkLevel}%`
+    spDef.innerText = currentPokemon.data.stats[4].base_stat
+    let spDefLevel = ((parseInt(spDef.innerText) / 255)*100)
+    spDefProgress.style.width = `${spDefLevel}%`
+    speed.innerText = currentPokemon.data.stats[5].base_stat
+    let speedLevel = ((parseInt(speed.innerText) / 255)*100)
+    speedProgress.style.width = `${speedLevel}%`
     let myTypes = currentPokemon.data.types    
     const Types = () => {
         for (let types in myTypes) {
