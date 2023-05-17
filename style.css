@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    background-image: url(https://wallpapercave.com/wp/wp10311682.jpg)
+}
+
+#searchButton {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnIwAN8mkusV3JNRuf3rNkm0ccFHi4qqKtBMLAH4RW8w&usqp=CAU&ec=48665699);
+    background-size: cover;
+    border: black solid 2px;
+    color: rgba(0,0,0,0.01)
+}
+
+#searchButton:hover {
+    background-image: url(https://www.solidbackgrounds.com/images/1920x1080/1920x1080-yellow-solid-color-background.jpg);
+    cursor: pointer;
+    color: black;
+
+}
+
+h2 {
+    font-size: 50px;
+}
+
