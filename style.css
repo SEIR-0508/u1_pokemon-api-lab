@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  background-color: paleturquoise;
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 4px;
+  border: 20px;
+  font-family: 'Rozha One', serif;
+}
+
+h1{
+  font-size: 50px;
+  font-style: 'Rozha One', serif;
+}
+
+#inputBar {
+border: 5px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.button {
+  border: 20px;
+}
