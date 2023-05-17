@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="heading">
+    <header>
+    <h1>Welcome to Pokemon Battles</h1>
+    </header>
+    <h2>Choose your Pokemon</h2>
+    <p>Type the name of the pokemon you'd like to choose in lowercase</p>
+    <p>Note: you can type <strong>"pokemon height"</strong> or <strong>"pokemon moves"</strong> to find their respective attributes.</p>
+    <input type="text" value= "" placeholder="Type Pokemon Here...">
+    <button>Search</button>
+    </div>
+    <div id="fight"><button id="fight-btn">FIGHT!</button></div>
+    <h3 id="name-display"></h3>
+    <div id="image-div"></div>
+    <h4 id="moves">Moves</h4>
+    <h4 id="height">Height</h4>
+    <div id="computer-chooses">
+        <h2 id="computer-title">Computer Chooses</h2>
+        <h3 id="computer-name-display"></h3>
+        <div id="computer-image-div"></div>
+    </div>
+    <h2 id="fighting">Hitting, smashing...</h2>
+    <div id="winner-picture"></div>
+    <ul>
+            
+    </ul>
+</body>
+</html>
