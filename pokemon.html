@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="pokemon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="pokemon.js"></script>
+</head>
+
+<body>
+    <img id = "logo" src="https://fontmeme.com/images/Pokemon-Logo.jpg" alt="Pokemon">
+    <h1>Pokedex</h1>
+    <form>
+        <input type="text"  value="" placeholder="Choose your pokemon!"  id="inputBar">
+        <input type="button"  value="Click here" id="searchButton">
+    </form>
+    
+    <h2 id="pokemonName"> </h2>
+    <img id="pokemonImage"/>
+    <div id = 'weight'></div>
+    <div id = 'abilities'></div>
+    <div id = 'height'></div>
+    
+     
+</body>
+</html>
