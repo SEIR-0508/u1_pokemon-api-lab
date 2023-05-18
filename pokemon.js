@@ -12,7 +12,7 @@ button.addEventListener('click', async () => {
     let displayName = document.querySelector("#pokemonName")
     let pokemonImage = document.querySelector("#pokemonImage")
     let pokemonWeight = document.querySelector('#weight')
-    // let pokemonAbilities = document.querySelector('#abilities')
+    let pokemonAbilities = document.querySelector('#abilities')
     let textInput = document.querySelector("#inputBar").value
     let height = document.querySelector('#height')
 
@@ -22,7 +22,7 @@ button.addEventListener('click', async () => {
     pokemonImage.src = pokeType.data.sprites.front_default
     pokemonWeight.innerHTML = `Weight: ${pokeType.data.weight}`
     height.innerHTML = `Height: ${pokeType.data.height}`
-    // pokemonAbilities.innerHTML = `Abilities: ${pokeType.data.abilities.map(abilities) => }`
+    pokemonAbilities.innerHTML = `Abilities: ${pokeType.data.abilities.map((ability) => ability.ability.name + " ")}`
    
    
     console.log(pokeType)
