@@ -1,3 +1,12 @@
+body  {
+justify-content: center;
+align-items: center;
+background-color: rgb(241, 93, 67);
+font-family: 'Henny Penny', cursive;
+}
+
+
+
 .container {
     width: 400px;
     margin: 0 auto;
@@ -5,18 +14,15 @@
     justify-content: center;
 }
 
+#pokemonStats {
+    font-size: 2rem;
+}
+
 .pokeDexBody {
     text-align: center;
-    background-color: tomato
     padding 20px;
 }
 
-.dexButtons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-top: 20px;
-}
 
 .dexButtons div {
     display: flex;
