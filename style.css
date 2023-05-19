@@ -1,0 +1,100 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(122, 129, 134);
+    color:black;
+    display: flex;
+    justify-content:center;
+}
+.header {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+#search {
+    display:flex;
+}
+
+
+.card {
+    width:80%;
+    height:250%;
+    padding: 10px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/*
+#top-banner {
+    width: 99%;
+    height: 15%;
+    border: 2px solid black;
+    display: flex;
+}
+#stats {
+    width:100%;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content: space-between;
+}
+#name {
+    width:80%;
+    height:100%;
+    display: flex;
+    }
+#num {
+    width:20%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+#img-about {
+    width:99%;
+    height:60%;
+    border:2px solid black;
+    display:flex;
+    column-gap: 0px;
+}
+
+#btm-banner {
+    width: 99%;
+    height: 15%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+/* 
+PISSING ME OFF COMING BACK LATER JESUS FUCK */
+
+/* #nav {
+    width: 120%;
+    height: 50%;
+    margin-left: -15%;
+    border:1px solid red;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#search {
+    display:flex;
+    width: 20%;
+    height: 50%;
+}
+#cyclebuttons {
+    display: flex;
+    border:1px solid blue;
+    width: 20%;
+    height: 50%;
+}
+
+#next {
+    display: flex;
+    border:1px solid blue;
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+}
+ */ */
