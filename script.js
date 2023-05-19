@@ -13,13 +13,18 @@ getPoke()
 
 
 button.addEventListener('click', async() => {
-    
+    const pokeWeight = document.querySelector('#pokemonWeight')
     const pokeImage = document.querySelector('#pokemonImage')
     const textInput = document.querySelector("#inputBar").value
     let response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${textInput}`)
     console.log(response)
-let pokePic = response.data.sprites.front_default
-pokeImage.src = pokePic
+    let pokePic = response.data.sprites.front_default
+    pokeImage.src = pokePic
+    pokeWeight.innerText = `Weight:${response.data.weight}`
+    // let Moves = response.data.moves
+    // pokeMoves.innerHTML = `Moves:${Moves}`
+    //Const hp = query selector(.hp)
+    //hp.innertext = `${data.stats.stat.name} : ${data.stats.base_stat}`
 })
 
 

@@ -1,0 +1,35 @@
+body{
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+body {
+    background-image: url('https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/masters/forest.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+#searchButton{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(152, 5, 5);
+}
+
+#pokemonWeight{
+    color: rgb(166, 17, 17);
+    text-align: center;
+    font-size: 28px;
+}
+/* 
+#pokemonImage {  
+    max-width: 100%;  
+    height: auto;  
+}   */
