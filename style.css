@@ -1,6 +1,6 @@
 html {
     font-family: sans-serif;
-    background-color: rgb(122, 129, 134);
+    background-color: rgb(227, 213, 49);
     color:black;
     display: flex;
     justify-content:center;
@@ -10,27 +10,26 @@ html {
     flex-direction:column;
     justify-content: center;
 }
-#search {
+#searchbar {
     display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    width: 315%;
+    height: 120%;
+    background-color: rgb(227, 213, 49);
 }
-
-
 .card {
     width:80%;
-    height:250%;
+    height:150%;
     padding: 10px;
     border: 4px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
-
-
-/*
 #top-banner {
     width: 99%;
-    height: 15%;
-    border: 2px solid black;
+    height: 10%;
     display: flex;
 }
 #stats {
@@ -42,59 +41,41 @@ html {
 }
 #name {
     width:80%;
-    height:100%;
+    height:10%;
     display: flex;
     }
 #num {
     width:20%;
     height: 100%;
-    border: 2px solid black;
+    display: flex;
+}
+#pokemon {
+    font-size: 200%;
+    text-transform: capitalize;
 }
 
-#img-about {
+#img {
     width:99%;
-    height:60%;
-    border:2px solid black;
+    height:50%;
     display:flex;
-    column-gap: 0px;
 }
 
 #btm-banner {
     width: 99%;
     height: 15%;
-    border: 2px solid black;
     display: flex;
     flex-direction: row;
-}
-/* 
-PISSING ME OFF COMING BACK LATER JESUS FUCK */
-
-/* #nav {
-    width: 120%;
-    height: 50%;
-    margin-left: -15%;
-    border:1px solid red;
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 #search {
     display:flex;
     width: 20%;
-    height: 50%;
+    height: 60%;
+    border: none; 
+    padding: 15px;
+    color:black;
+    background-color: rgb(227, 159, 49);
 }
-#cyclebuttons {
-    display: flex;
-    border:1px solid blue;
-    width: 20%;
-    height: 50%;
+#searchbutton {
+    background-color: rgb(227, 159, 49);
+    border: 2px solid black;
 }
-
-#next {
-    display: flex;
-    border:1px solid blue;
-    width: 100%;
-    height: 50%;
-    justify-content: flex-end;
-}
- */ */
