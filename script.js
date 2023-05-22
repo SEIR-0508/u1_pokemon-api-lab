@@ -6,10 +6,10 @@
     
 
     button.addEventListener('click', async () => {
-       let pokemonName = document.querySelector("#pokemonName")
+    let pokemonName = document.querySelector("#pokemonName")
     let pokemonImage = document.querySelector("#pokemonImage")
     let pokeID = document.querySelector("#pokeID")
-    let abilities = document.querySelector("#abilities")
+    let abilitiesTable = document.querySelector("#abilities")
     let textInput = document.querySelector("#inputBar")
     let poke = textInput.value.toLowerCase()
         //axios call goes here
@@ -20,7 +20,9 @@
         pokeID.innerHTML = `${pokemon.data.id}`
         // abilities.innerHTML = `<tr>${pokemon.data.abilities[0].ability.name}</tr>`
 
-        
+    //    pokemon.data.abilities.forEach((ability)=> {
+    //     abilitiesTable.appendChild(`<tr>${ability.ability.name}</tr>`)
+    //    })
 
 
         console.log(pokemon.data)
