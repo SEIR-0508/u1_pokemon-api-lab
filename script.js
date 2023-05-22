@@ -21,8 +21,6 @@ searchButton.addEventListener('click', function() {
             pokemonImage.src = data.sprites.front_default;
 
             //list out the Pokemon's abilities
-            // emptying out the current list
-            pokemonAbilities.innerHTML = '';
             //loop over each of the Pokemon's abilities
             data.abilities.forEach(function(item) {
                 // for each ability, create a new list item and add it to the list
@@ -30,11 +28,10 @@ searchButton.addEventListener('click', function() {
             });
 
             // do the same for the Pokemon's stats and types
-            pokemonStats.innerHTML = '';
             data.stats.forEach(function(stat) {
-                pokemonStats.innerHTML += `<li>${stat.stat.name}: ${stat.base_stat}</li>`;
+            pokemonStats.innerHTML += `<li>${stat.stat.name}: ${stat.base_stat}</li>`;
             });
-            pokemonTypes.innerHTML = '';
+            
             data.types.forEach(function(type) {
                 pokemonTypes.innerHTML += `<li>${type.type.name}</li>`;
             });
