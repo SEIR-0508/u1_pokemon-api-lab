@@ -1,0 +1,16 @@
+body {
+    background-color: honeydew;
+    text-align: center;
+}
+form {
+display: inline-block;
+margin: 0.5em;
+}
+h2 {
+    margin-top: 1em;
+    font-size: 300%;
+}
+p {
+    font-size: 150%;
+    
+}
