@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pokedex</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="pokedex">
+            <div class="left-container">
+              <div class="left-container__top-section"></div>
+                <div class="left-container__main-section-container">
+                 <div class="left-container__main-section">
+                    <div class="main-section_content">
+                        <h2 id="pokemonName"> </h2>
+                        <img id="pokemonImage"/>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+            <div class="right-container">
+              <div class="right-container_black">
+                <div class="right-container_screen">
+                    <form>
+                        <input type="text"  value="" placeholder="Choose your pokemon!"  id="inputBar">
+                        <input type="button"  value="Click here" id="searchButton">
+                    </form>
+    
+                    <div class="pokemonInfo"> </div>
+                    <div class="pokemonAbilities"> </div>
+                    <div class="pokemonMoves"> </div>
+                    <div class="pokemonStats"> </div>
+                    <div class="pokemonTypes"> </div>
+                </div>
+              </div>
+              <div class="right-container__buttons">
+                <div class="prev-button">Prev</div>
+                <div class="next-button">Next</div>
+              </div>
+            </div>
+          </div> 
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
