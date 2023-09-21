@@ -1,0 +1,124 @@
+*{
+    margin: auto;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: #eeee43;
+    background-color: red;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png');
+    background-size: 530px;
+    background-repeat: no-repeat;
+    background-position: 50%, 50%;
+    border: 4px solid black;
+    padding: 50px;
+    height: 100px;
+    width: auto;
+    font-size: 50px;
+    font-family: 'Shantell Sans';
+    margin-left: -15px;
+    margin-right:-15px;
+}
+body{
+    background-color: white;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqukuIH4Fkc345DbZajj_s4yL9u9WUhgF05w&usqp=CAU');
+    background-position: 50%  50%;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    padding-bottom: 500px;
+ 
+}
+form{
+    display: flex;
+    text-align: center;
+    height: 40px;
+    width:20%;
+}
+#pokemonImage{
+    margin-top: 20px;
+    border: 8px solid #11117e;
+    height: 300px;
+    width: 300px;
+    display:flex;
+    justify-self: center;
+    background-image: url('https://img.freepik.com/premium-vector/flat-comic-style-background-copy-space_52683-55012.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%, 50%;
+    background-color: rgba(252, 252, 132, 0.497);
+    
+}
+.pokeBaseEXP{
+    font-size: 50px;
+}
+#searchButton{
+    width:70px;
+    height:70px;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    display: flex-box;
+    text-wrap: wrap;
+    border-radius: 50px;
+    background-size: 130px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAB7CAMAAAA2eOwTAAABDlBMVEX////5+fkAAADy8vLMzMz19fX/fX3/aWmysrL8/Pz/TEz/Rkb/YGD/SUn/d3e+vr7/kJD+iIj/ZWX/W1v/VVX/Ly//b2//PT3/OTm5GRn/nJyOjo7+Jib/mJjo6Oj/goIUFBQ9PT1GRkZPT09tbW3/qan/o6O5LCyWlpaenp7f3993d3eEhIT/srJaWlp+cXGMcXGac3O5hYXEh4eBZ2fooqLUhYWZZmaIZWWxZmZyUVGbUFDCenricHBwWVnuk5OKRkatSkq0RUWdOTmDNjbCWFh2QkLYMzPpYmLWUVGKJCTlVVVzKioZCAhiISHXR0eKMDCnJydMGhplFBTOFxecqqooCwuVFRUAExMjIyPwg/bmAAADd0lEQVRoge2Ya1vTMBiG0zWFpgyCY0OkrDtQsScGclCccnAok5OCiML//yO+Sbs1ZZUr3Xb5KTcftl1db56+b5omQ0ihUCgUCoVCoVAo/jsE/qZsNJwAU9M0KQ50bVpWIzDtre23O7u7uzsH21senoaa6Dja29nfZLxmHL9775rOpGYDhwf7sXIDWOXUP3SoPpHW8br7m6myXq8v1hcZH0M8fmQNu582k5BD5YuYw+7YkTV6dLwRK+OQsbHRaMwACyf+eGKNduurorHRSJQzC5zP3jhi0IohZxK4cXl5eRbojSPGR5nLHgoTZ6VSKVdO7wuLHfeQObPK2aESWAK+0IK3tuF/bWSViZE7mbLKsLpBIS3BZ42FjHOgLA+UzGpZ/ahQJfTw27A7XFmulM/Pe73zQU7O/Py8dYELVILgk6GyzLm8ui4xrr//qCbKOc6K68h7jehS7M7S0k0p5cpKlHMvGbcFWheclcXuVH8yX7PVaTV55n5sXOHUQukKE7OXdseyuLYN0wFBOm0z8cAJ1lrtFEuXwU4bbkFrQGUbms7QDBs+3TEjczJ+3cvObM6eVU0aDlXsM21s5WYm7tcGrK2tbckWIjgZOBkQt821mha/QCnuEiXnTPbewKdix3+XSpQJNdM2+SuFwEMpcCFbYHzzJuUWRgKPuQ66dZ4YRsWfVynSXv3+oSTSQrpumPwtS4xamaMPpmx9dS9zYqlDknbFDSSd7GHpWZh6OMXPzWsL3/CopNekiAxAQW59sfANKuvFPtJSHvPGg0OGx5Et27fAFrwozBm/HeELJJIdv05kCKcFOfcbTuNquvTUbkTCZcJ1jswPrhgX+7ITJYHGCQUm7SfzWVO4nALlhQKHGS+rqDD/PopXo+ny8y8ywsyphNjCbeAa4jHkF3heECyOCHZ2EPKopaaLs0cMt8gDWc8GhsiwEqawDYAiZ/+hXeR5DIHDbCyuRk+koMXF1g/I8OiIOAfDLbbeYesz52m4UVBUdH0Glcj2PVfr+8U3AxoNtefFyLTHW1iHzyZG/lhaJoa117+sRIvG3F/wGtORoZWEDULpx1oOjhc6OWaE/En2b4jvN9m0nZktkGa6k4TlsP1xaDoGewvPMvbZg/3xNH4xgP18FNk+BUwviqazn+fw3x/Maf/+MLRPW6hQKBQKhUKhUCgUMvwFjOZn6KWqVlYAAAAASUVORK5CYII=");
+    background-position: 50% 50%;
+}
+#searchButton:hover{
+    transform: rotate(270deg);
+}
+#inputBar{
+    border: 3px solid #11117e;
+    color: #11117e;
+    font-size: 15px;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+#clearBtn{
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color:#11117e;
+    border: 2px solid #11117e;
+    font-weight: bold;
+    margin-left: 10%;
+}
+#clearBtn:hover{
+    transform: translateY(2px);
+    width:  30%;
+    margin-left:0;
+    background-color: #11117e;
+    color: yellow;
+    font-size: 20px;
+}
+#inputBar{
+    height: 40px;
+    width: 100px;
+}
+
+div{
+    display: flex;
+}
+#pokemonName{
+    font-size: 55px;
+    width: 20%;
+    font-family: 'IBM Plex Mono', monospace;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    color: red;
+    margin-left: auto;
+    text-decoration: underline  wavy rgb(208, 208, 25);
+}
+.pokeBaseEXP, .pokeWeight, .pokeHeight, .pokeAbilities{
+    font-family: 'IBM Plex Mono', italic;
+    font-size: 18px;
+    padding-top: 58px;
+    color:#11117e;
+    width:  30%;
+
+}
+.pokeAbilities{
+    text-transform: capitalize;
+}
