@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon API Return</title>
+    <!-- link favcon -->
+    <link rel="icon" href="./assets/pokedex-3.jpeg" type="image/x-icon">
+    <!-- link CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- link axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- link JavaScript -->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <article class="innerBody">
+    <h1 class="title">Pokemon API Return</h1>
+        <div class="searchImage">
+            <img src="./assets/pokemon1.jpeg" alt="Tpoic Image">
+        </div>
+            <div class="form">
+                <form>
+                    <input type="text"  value="" placeholder="Type in your pokemon!"  id="inputbar">
+                    <input type="button"  value="Click here" class="searchButton" id="searchButton">
+                </form>
+            </div>
+                <h2 id="pNameText"></h2> 
+                <h2 id="idNumber"></h2>
+                <hr>
+
+                <span id="hideElements1">
+                    <h2 class="underline">Images</h2>
+                </span>
+
+                <div id="pFront"></div>
+                <div id="pSFront"></div>
+                <div id="pBack"></div>
+                <div id="pSBack"></div>
+
+                <span id="hideElements2">
+                    <h2 class="underline">Type</h2>
+                </span>
+
+                <div id="pType" class="types"></div>
+
+                <span id="hideElements3">
+                    <h2 class="underline">Abilities List</h2>
+                </span>
+
+                <div id="pAbility"></div> 
+
+                <span id="hideElements4">
+                    <h2 class="underline">Moves List</h2>
+                </span>
+
+                <div id="pMoves"></div>
+    </article>
+  </body>
+</html>
