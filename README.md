@@ -1,6 +1,12 @@
-## SEIR 0508
+## SEIR 0911EC
 
 ### PokeAPI lab
+
+<img src="./assets/pokemon1.jpeg">
+
+Let's be the very best, that no one ever was.
+To make API calls is our quest
+DOM Manipulation is our cause!
 
 
 For this lab lets create our own Pokedex by making an Axios call to the PokeAPI!
@@ -52,3 +58,6 @@ Once you have the initial data rendered, try to add as much as possible. We can 
 
 
 Finally, this is a chance to really explore your styling skills. Be sure to create some wireframes to work with before creating something you can really show off, and have fun with!
+
+
+<img src="./assets/pokedex-3.jpeg">
