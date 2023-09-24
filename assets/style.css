@@ -1,0 +1,293 @@
+* {
+   box-sizing: border-box;
+   font-family: 'Press Start 2P', cursive;
+}
+
+body {
+   width: 100vw;
+   background-color: red;
+   animation: background 10s infinite;
+}
+
+header {
+   text-align: center;
+   font-size: x-large;
+   padding: 20px;
+   background-color: red;
+   animation-name: background;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+
+form {
+   background-color: red;
+   animation: background 10s infinite;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+main2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: x-large;
+   padding: 25px;
+}
+
+ul {
+   list-style-type: none;
+}
+
+.pokemonImage {
+   max-width: 100%;
+   height: auto;
+}
+
+#inputBar {
+   text-align: center;
+   font-size: 2rem;
+   padding: 10px;
+   margin: 15px;
+   border: 5px solid;
+   border-radius: 5px;
+   background-color: lightgray;
+   animation: border 10s infinite;
+}
+
+#searchButton {
+   background-color: lightgray;
+   font-size: 2rem;
+   padding: 10px;
+   border: 5px solid;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 0.4s;
+   animation: border 10s infinite;
+   box-shadow: 0 4px #777;
+}
+
+#searchButton:active {
+   box-shadow: 0 1px #333;
+   transform: translateY(4px);
+}
+
+#searchButton:hover {
+   transform: translateX(-10px);
+}
+
+@keyframes background {
+   0% {background-color: red;}
+   25% {background-color: gold;}
+   50% {background-color: blue;}
+   75% {background-color: gray;}
+   100% {background-color: red;}
+}
+@keyframes border {
+   0% {background-color: blue;}
+   25% {background-color: red;}
+   50% {background-color: yellow;}
+   75% {background-color: purple;}
+   100% {background-color: blue;}
+}
+
+
+
+@media screen and (max-width: 900px){
+   * {
+      box-sizing: border-box;
+      font-family: 'Press Start 2P', cursive;
+   }
+   
+   body {
+      width: 100vw;
+      animation: background 10s infinite;
+   }
+
+   header {
+      text-align: center;
+      font-size: 1.3rem;
+      line-height: 1.2;
+      padding: 10px;
+      animation: background 10s infinite;
+   }
+
+   form {
+      width: auto;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      animation: background 10s infinite;
+   }
+   
+   #infoContainer {
+      display: block;
+      margin: 0 auto;
+      text-align: left;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.4rem;
+      padding: 15px;
+   }
+
+   ul {
+      list-style-type: none;
+      margin: 0;
+   }
+
+   #pokemonNumber {
+      font-size: 1.6rem;
+   }
+
+   #pokemonType {
+      text-align: left;
+      margin: 0;
+      padding: 0;
+   }
+
+   #pokeAbilities {
+      padding: 0;
+   }
+   
+
+   #pokemonImage {
+      position: relative;
+      width: 100%;
+   }
+   
+   #inputBar {
+      display: block;
+      width: 80%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 5px 0;
+      margin: 0 auto;
+      border: 5px solid;
+      border-radius: 5px;     
+      transition: 0.6s;
+      animation: border 10s infinite;
+   }
+   
+   #searchButton {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      padding: 5px;
+      border: 5px solid;
+      border-radius: 5px;
+      box-shadow: none;
+      transition: 0.6s;
+      animation: border 10s infinite;
+   }
+   
+   #searchButton:hover {
+      transform: translateX(0px);
+   
+   }
+}
+@media screen and (max-width: 450px){
+   * {
+      box-sizing: border-box;
+      font-family: 'Press Start 2P', cursive;
+   }
+   
+   body {
+      width: 100vw;
+      animation: background 10s infinite;
+   }
+
+   header {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1.5;
+      padding: 10px;
+      animation: background 10s infinite;
+   }
+
+   form {
+      width: auto;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      animation: background 10s infinite;
+   }
+   
+   #infoContainer {
+      display: block;
+      margin: 0 auto;
+      text-align: left;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+      padding: 15px;
+   }
+
+   ul {
+      list-style-type: none;
+      margin: 0;
+   }
+
+   #pokemonNumber {
+      font-size: 1.2rem;
+   }
+
+   #pokemonType {
+      text-align: left;
+      margin: 0;
+      padding: 0;
+   }
+
+   #pokeAbilities {
+      padding: 0;
+   }
+   
+
+   #pokemonImage {
+      position: relative;
+      width: 100%;
+   }
+   
+   #inputBar {
+      display: block;
+      width: 80%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 1rem;
+      padding: 5px 0;
+      margin: 0 auto;
+      border: 5px solid;
+      border-radius: 5px;     
+      transition: 0.6s;
+      animation: border 10s infinite;
+   }
+   
+   #searchButton {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+      padding: 5px;
+      border: 5px solid;
+      border-radius: 5px;
+      box-shadow: none;
+      transition: 0.6s;
+      animation: border 10s infinite;
+   }
+   
+   #searchButton:hover {
+      transform: translateX(0px);
+   
+   }
+}
+
+
+
+

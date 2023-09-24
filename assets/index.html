@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Pokedex 2.0</title>
+  </head>
+  <body>
+
+
+   <header>
+      <h1>Pokemon!</h1>
+      <h2>Gotta Catch'em All!</h2>
+   </header>
+
+
+   
+      
+
+      <!-- TEXT AREA FOR ENTERING POKEMON NAMES, AND SEARCH BTN -->
+<div class="searchContainer">
+    <form>
+      <input type="text" value="" placeholder="Select a Pokemon!" id="inputBar"/>
+      <br>
+      <input type="submit" value="Search" id="searchButton" />
+    </form>
+</div>
+
+    <!-- !^!^!^!^!^!^!^!^!^!^!^!^!^!^!!^!^!^!^!^!^!^!^!^!^!^!^!^! -->
+
+
+<main2>
+    <!-- DIFFERENT ELEMENTS THAT CHANGE WHATS ON SCREEN -->
+<div class="infoContainer" id="infoContainer">
+    <div class="pokemonNumber" id="pokemonNumber"></div>
+    <div class="pokemonName" id="pokemonName"></div>
+    <img id="pokemonImage" class="pokemonImage"/>
+    <ul id="pokemonType" class="pokemonType"></ul>
+    <p id="pokeHeight" class="pokeHeight"></p>
+    <p id="pokemonWeight" class="pokemonWeight"></p>
+    <ul id="pokeAbilities" class="pokeAbilities"></ul>
+</div>
+    <!-- !^!^!^!^!^!^!^!^!^!^^!^!^!^!!^!^!^!^!^!^!^!^!^!^ -->
+   </main2>
+
+
+   
+  </body>
+</html>
